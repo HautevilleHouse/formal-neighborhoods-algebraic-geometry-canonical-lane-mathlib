@@ -31,7 +31,7 @@ def ClassicalSourceBoundaryCarried : Prop :=
 
 theorem classical_bridge_holds : ClassicalSourceBoundaryCarried :=
   by
-    trivial
+    exact True.intro
 
 end FormalNeighborhoodsAlgebraicGeometryCanonicalLaneLean
 end HautevilleHouse
